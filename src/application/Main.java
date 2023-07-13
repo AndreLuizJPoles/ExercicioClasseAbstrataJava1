@@ -19,7 +19,7 @@ public class Main {
         System.out.print("Enter the number of shapes: ");
         int numberOfShapes = sc.nextInt();
         for(int i=0;i<numberOfShapes;i++){
-            System.out.println("Shape #" + (i+1) +"data:");
+            System.out.println("Shape #" + (i+1) +" data:");
             System.out.print("Rectangle or Circle (r/c)? ");
             char shapeType = sc.next().charAt(0);
             System.out.print("Color (BLACK/BLUE/RED): ");
